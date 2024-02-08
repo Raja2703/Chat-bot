@@ -1,0 +1,11 @@
+import OpenAI from 'openai';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const openai = new OpenAI({
+	apiKey: process.env.OPEN_AI_API_KEY,
+});
+
+// const openai = new OpenAIApi(configuration);
+
+export default openai;

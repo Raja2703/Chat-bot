@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"colors": "^1.4.0",
+		"dotenv": "^16.4.1",
+		"nodemon": "^3.0.3",
+		"openai": "^4.26.1",
+		"readline-sync": "^1.4.10"
+	},
+	"name": "open-ai",
+	"version": "1.0.0",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon main.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
